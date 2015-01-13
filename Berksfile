@@ -1,7 +1,5 @@
 source "https://supermarket.getchef.io"
 
-metadata
-
 #[submodule "yum"]
 cookbook 'yum', git: 'https://github.com/opscode-cookbooks/yum.git'
 #[submodule "yumrepo"]
