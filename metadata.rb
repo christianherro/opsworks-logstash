@@ -1,0 +1,5 @@
+maintainer       "Christian Herro"
+maintainer_email "christian.herro@gmail.com"
+license          "All rights reserved"
+description      "elasticsearch install"
+version          "0.1"
