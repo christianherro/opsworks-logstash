@@ -1,87 +1,88 @@
-source "git://supermarket.getchef.io"
+source "https://supermarket.getchef.io"
 
 metadata
+
 #[submodule "yum"]
-cookbook 'yum', git: 'git://github.com/opscode-cookbooks/yum.git'
+cookbook 'yum', git: 'https://github.com/opscode-cookbooks/yum.git'
 #[submodule "yumrepo"]
-cookbook 'yumrepo', git: 'git://github.com/bryanwb/cookbook-yumrepo.git'
+cookbook 'yumrepo', git: 'https://github.com/bryanwb/cookbook-yumrepo.git'
 #[submodule "elasticsearch"]
-cookbook 'elasticsearch', git: 'git://github.com/foxycoder/cookbook-elasticsearch.git'
+cookbook 'elasticsearch', git: 'https://github.com/foxycoder/cookbook-elasticsearch.git'
 #[submodule "kibana"]
-cookbook 'kibana', git: 'git://github.com/foxycoder/chef-kibana.git'
+cookbook 'kibana', git: 'https://github.com/foxycoder/chef-kibana.git'
 #[submodule "logstash"]
-cookbook 'logstash', git: 'git://github.com/foxycoder/chef-logstash.git'
+cookbook 'logstash', git: 'https://github.com/foxycoder/chef-logstash.git'
 #[submodule "redisio"]
-cookbook 'redisio', git: 'git://github.com/brianbianco/redisio.git'
+cookbook 'redisio', git: 'https://github.com/brianbianco/redisio.git'
 #[submodule "rabbitmq"]
-cookbook 'rabbitmq', git: 'git://github.com/opscode-cookbooks/rabbitmq.git'
+cookbook 'rabbitmq', git: 'https://github.com/opscode-cookbooks/rabbitmq.git'
 #[submodule "java"]
-cookbook 'java', git: 'git://github.com/opscode-cookbooks/java.git'
+cookbook 'java', git: 'https://github.com/opscode-cookbooks/java.git'
 #[submodule "apt"]
-cookbook 'apt', git: 'git://github.com/opscode-cookbooks/apt.git'
+cookbook 'apt', git: 'https://github.com/opscode-cookbooks/apt.git'
 #[submodule "erlang"]
-cookbook 'erlang', git: 'git://github.com/opscode-cookbooks/erlang.git'
+cookbook 'erlang', git: 'https://github.com/opscode-cookbooks/erlang.git'
 #[submodule "mysql"]
-cookbook 'mysql', git: 'git://github.com/opscode-cookbooks/mysql.git'
+cookbook 'mysql', git: 'https://github.com/opscode-cookbooks/mysql.git'
 #[submodule "nagios"]
-cookbook 'nagios', git: 'git://github.com/opscode-cookbooks/nagios.git'
+cookbook 'nagios', git: 'https://github.com/opscode-cookbooks/nagios.git'
 #[submodule "nginx"]
-cookbook 'nginx', git: 'git://github.com/opscode-cookbooks/nginx.git'
+cookbook 'nginx', git: 'https://github.com/opscode-cookbooks/nginx.git'
 #[submodule "ntp"]
-cookbook 'ntp', git: 'git://github.com/opscode-cookbooks/ntp.git'
+cookbook 'ntp', git: 'https://github.com/opscode-cookbooks/ntp.git'
 #[submodule "postgresql"]
-cookbook 'postgresql', git: 'git://github.com/opscode-cookbooks/postgresql.git'
+cookbook 'postgresql', git: 'https://github.com/opscode-cookbooks/postgresql.git'
 #[submodule "runit"]
-cookbook 'runit', git: 'git://github.com/opscode-cookbooks/runit.git'
+cookbook 'runit', git: 'https://github.com/opscode-cookbooks/runit.git'
 #[submodule "ant"]
-cookbook 'ant', git: 'git://github.com/opscode-cookbooks/ant.git'
+cookbook 'ant', git: 'https://github.com/opscode-cookbooks/ant.git'
 #[submodule "apache2"]
-cookbook 'apache2', git: 'git://github.com/opscode-cookbooks/apache2.git'
+cookbook 'apache2', git: 'https://github.com/opscode-cookbooks/apache2.git'
 #[submodule "ark"]
-cookbook 'ark', git: 'git://github.com/opscode-cookbooks/ark.git'
+cookbook 'ark', git: 'https://github.com/opscode-cookbooks/ark.git'
 #[submodule "aws"]
-cookbook 'aws', git: 'git://github.com/opscode-cookbooks/aws.git'
+cookbook 'aws', git: 'https://github.com/opscode-cookbooks/aws.git'
 #[submodule "bluepill"]
-cookbook 'bluepill', git: 'git://github.com/opscode-cookbooks/bluepill.git'
+cookbook 'bluepill', git: 'https://github.com/opscode-cookbooks/bluepill.git'
 #[submodule "build-essential"]
-cookbook 'build-essential', git: 'git://github.com/opscode-cookbooks/build-essential.git'
+cookbook 'build-essential', git: 'https://github.com/opscode-cookbooks/build-essential.git'
 #[submodule "chef_handler"]
-cookbook 'chef_handler', git: 'git://github.com/opscode-cookbooks/chef_handler.git'
+cookbook 'chef_handler', git: 'https://github.com/opscode-cookbooks/chef_handler.git'
 #[submodule "database"]
-cookbook 'database', git: 'git://github.com/opscode-cookbooks/database.git'
+cookbook 'database', git: 'https://github.com/opscode-cookbooks/database.git'
 #[submodule "dmg"]
-cookbook 'dmg', git: 'git://github.com/opscode-cookbooks/dmg.git'
+cookbook 'dmg', git: 'https://github.com/opscode-cookbooks/dmg.git'
 #[submodule "git"]
-cookbook 'git', git: 'git://github.com/opscode-cookbooks/git.git'
+cookbook 'git', git: 'https://github.com/opscode-cookbooks/git.git'
 #[submodule "logrotate"]
-cookbook 'logrotate', git: 'git://github.com/opscode-cookbooks/logrotate.git'
+cookbook 'logrotate', git: 'https://github.com/opscode-cookbooks/logrotate.git'
 #[submodule "memcached"]
-cookbook 'memcached', git: 'git://github.com/opscode-cookbooks/memcached.git'
+cookbook 'memcached', git: 'https://github.com/opscode-cookbooks/memcached.git'
 #[submodule "ohai"]
-cookbook 'ohai', git: 'git://github.com/opscode-cookbooks/ohai.git'
+cookbook 'ohai', git: 'https://github.com/opscode-cookbooks/ohai.git'
 #[submodule "openssl"]
-cookbook 'openssl', git: 'git://github.com/opscode-cookbooks/openssl.git'
+cookbook 'openssl', git: 'https://github.com/opscode-cookbooks/openssl.git'
 #[submodule "perl"]
-cookbook 'perl', git: 'git://github.com/opscode-cookbooks/perl.git'
+cookbook 'perl', git: 'https://github.com/opscode-cookbooks/perl.git'
 #[submodule "php"]
-cookbook 'php', git: 'git://github.com/opscode-cookbooks/php.git'
+cookbook 'php', git: 'https://github.com/opscode-cookbooks/php.git'
 #[submodule "postfix"]
-cookbook 'postfix', git: 'git://github.com/opscode-cookbooks/postfix.git'
+cookbook 'postfix', git: 'https://github.com/opscode-cookbooks/postfix.git'
 #[submodule "python"]
-cookbook 'python', git: 'git://github.com/opscode-cookbooks/python.git'
+cookbook 'python', git: 'https://github.com/opscode-cookbooks/python.git'
 #[submodule "vim"]
-cookbook 'vim', git: 'git://github.com/opscode-cookbooks/vim.git'
+cookbook 'vim', git: 'https://github.com/opscode-cookbooks/vim.git'
 #[submodule "windows"]
-cookbook 'windows', git: 'git://github.com/opscode-cookbooks/windows.git'
+cookbook 'windows', git: 'https://github.com/opscode-cookbooks/windows.git'
 #[submodule "xfs"]
-cookbook 'xfs', git: 'git://github.com/opscode-cookbooks/xfs.git'
+cookbook 'xfs', git: 'https://github.com/opscode-cookbooks/xfs.git'
 #[submodule "xml"]
-cookbook 'xml', git: 'git://github.com/opscode-cookbooks/xml.git'
+cookbook 'xml', git: 'https://github.com/opscode-cookbooks/xml.git'
 #[submodule "rsyslog"]
-cookbook 'rsyslog', git: 'git://github.com/opscode-cookbooks/rsyslog.git'
+cookbook 'rsyslog', git: 'https://github.com/opscode-cookbooks/rsyslog.git'
 #[submodule "hostsfile"]
-cookbook 'hostsfile', git: 'git://github.com/foxycoder/hostsfile.git'
+cookbook 'hostsfile', git: 'https://github.com/foxycoder/hostsfile.git'
 #[submodule "rbenv"]
-cookbook 'rbenv', git: 'git://github.com/ddux/rbenv-cookbook.git'
+cookbook 'rbenv', git: 'https://github.com/ddux/rbenv-cookbook.git'
 #[submodule "htpasswd"]
-cookbook 'htpasswd', git: 'git://github.com/Youscribe/htpasswd-cookbook.git'
+cookbook 'htpasswd', git: 'https://github.com/Youscribe/htpasswd-cookbook.git'
